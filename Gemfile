@@ -12,4 +12,8 @@ group :jekyll_plugins do
   # Otros plugins útiles
   gem "jekyll-redirect-from" # Redirecciones
   gem "jekyll-compose"       # Comandos para crear posts fácilmente
+  #Windows config
+  gem "logger"
+  gem 'tzinfo'
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 end
