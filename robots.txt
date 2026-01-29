@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.servtecrosarito.com/sitemap.xml
+Sitemap: https://servtecrosarito.com/sitemap.xml
+
+# Disallow admin y archivos internos
+Disallow: /assets/
+Disallow: /*.json$
+Disallow: /_*
+
+# Crawl-delay
+Crawl-delay: 0
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /

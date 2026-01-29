@@ -1,0 +1,119 @@
+# Configuración del sitio
+title: "ServTec Rosarito - Servicios Tecnológicos"
+description: "Reparación de computadoras, mantenimiento preventivo y soporte técnico en Rosarito. Expertos certificados en servicios tecnológicos profesionales."
+baseurl: "" # El subpath de tu sitio, ej: /blog
+url: "https://www.servtecrosarito.com" # URL principal con www
+
+# URLs alternativas
+alternate_urls:
+  - "https://servtecrosarito.com"
+
+# SEO y Metadata
+author: "ServTec Rosarito"
+twitter:
+  username: servtecrosarito
+  card: summary_large_image
+
+# Open Graph / Facebook
+logo: /assets/images/logo.png # Crea este logo (recomendado: 1200x630px)
+social:
+  name: ServTec Rosarito
+  links:
+    - https://facebook.com/servtecrosarito
+    - https://twitter.com/servtecrosarito
+    - https://instagram.com/servtecrosarito
+
+# Información de la empresa (Schema.org)
+company:
+  name: "ServTec Rosarito"
+  legal_name: "ServTec Rosarito Servicios Tecnológicos"
+  tagline: "Soluciones tecnológicas a tu alcance"
+  email: "contacto@servtecrosarito.com"
+  phone: "+52 663 205 0285"
+  address:
+    street: "Boulevard Benito Juárez"
+    city: "Rosarito"
+    region: "Baja California"
+    postal_code: "22710"
+    country: "MX"
+  geo:
+    latitude: "32.3658"
+    longitude: "-117.0439"
+  founded: "2025"
+  logo: "/assets/images/logo.png"
+
+# Navegación
+navigation:
+  - title: "Inicio"
+    url: "/"
+  - title: "Servicios"
+    url: "/servicios/"
+  - title: "Nosotros"
+    url: "/nosotros/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contacto"
+    url: "/contacto/"
+
+# Idioma y localización
+lang: es-MX
+timezone: America/Tijuana
+
+# Plugins para SEO
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Jekyll SEO Tag settings
+tagline: "Servicios tecnológicos profesionales en Rosarito"
+
+# Feed settings
+feed:
+  path: feed.xml
+  excerpt_only: true
+
+# Sitemap settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-og-image.jpg
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Excluir archivos
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENCIA.md
+  - "*.sh"
+  - "*.md"
+
+# Defaults para mejor SEO
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "ServTec Rosarito Team"
+      image: /assets/images/default-post-image.jpg
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      image: /assets/images/default-og-image.jpg
+
+
+# Google Analytics (opcional)
+google_analytics: G-PRFWSZZM9L # Reemplaza con tu ID
+
+# Google Search Console (opcional)
+google_site_verification: "BfDKv0lpYEJlVWI95peooAhFssZXI5--r8foVtDSwoU"
