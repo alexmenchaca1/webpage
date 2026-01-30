@@ -141,6 +141,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    align-items: stretch;
 }
 
 .service-card {
@@ -148,6 +149,9 @@ body {
     padding: 2.5rem;
     border-radius: 12px;
     transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .service-card:hover {

@@ -1,5 +1,5 @@
 # Configuración del sitio
-title: "Hospital de Smarphones y Drones"
+title: "Hospital de Smarphone Drone"
 description: "Reparación de computadoras, celuares, drones, mantenimiento preventivo y soporte técnico en Tijuana. Expertos certificados en servicios tecnológicos profesionales."
 baseurl: "" # El subpath de tu sitio, ej: /blog
 url: "https://www.hospitalsmartphone.com" # URL principal con www
@@ -9,9 +9,7 @@ alternate_urls:
   - "https://hospitalsmartphone.com"
 
 # SEO y Metadata
-author: "Hospital de Smarphones y Drones"
-twitter:
-  username: servtecrosarito
+author: "Hospital de Smarphone Drone"
 
 # Open Graph / Facebook
 logo: /assets/images/logo.png # Crea este logo (recomendado: 1200x630px)
@@ -19,25 +17,27 @@ social:
   name: Hospital de Smartphone DRONE
   links:
     - https://facebook.com/HospitaldesmartphoneDRONES
-    - https://instagram.com/servtecrosarito
+    - https://instagram.com/HospitaldesmartphoneDRONES
 
 # Información de la empresa (Schema.org)
 company:
-  name: "Hospital de Smarphones y Drones"
-  legal_name: "Hospital de Smarphones y Drones"
+  name: "Hospital de Smarphone Drone"
+  legal_name: "Hospital de Smarphone Drone"
   tagline: "Los drones no se tiran se reparan"
   email: "alex@hospitalsmartphone.com"
   phone: "+52 664 686 4921"
+  whatsapp: "https://wa.me/526645962017"
+  telwahat: "+52 664 596 2017"
   address:
-    street: "Boulevard Benito Juárez"
-    city: "Rosarito"
+    street: "Blvrd Cuauhtémoc Sur Ote 2646-A"
+    city: "Tijuana"
     region: "Baja California"
-    postal_code: "22710"
+    postal_code: "22044"
     country: "MX"
   geo:
     latitude: "32.3658"
     longitude: "-117.0439"
-  founded: "2025"
+  founded: "2007"
   logo: "/assets/images/logo.png"
 
 # Navegación

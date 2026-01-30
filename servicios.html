@@ -10,46 +10,79 @@ permalink: /servicios/
     <div class="container">
         <h1>Nuestros Servicios</h1>
         <p>Ofrecemos soluciones tecnológicas integrales para mantener tus equipos funcionando al máximo rendimiento.</p>
+        <p>El mantenimiento regular es clave para prolongar la vida útil de tus equipos.<p>
 
+        <!-- Imágenes de ejemplo: usar HD 1280×720 (16:9). Ejemplos (pruebas):
+             https://picsum.photos/seed/drone/1280/720
+             https://picsum.photos/seed/pc/1280/720
+             https://picsum.photos/seed/cell/1280/720
+             O alternativos con texto: https://placehold.co/1280x720?text=Drone -->
         <div class="services-detail">
+
             <div class="service-detail-card">
-                <h2>🔧 Reparación y Armado de computadoras</h2>
-                <p>Realizamos diagnósticos completos y reparaciones de hardware y software para equipos de escritorio y portátiles. Nuestros técnicos certificados pueden resolver problemas de:</p>
-                <ul>
-                    <li>Pantallas y componentes dañados</li>
-                    <li>Problemas de arranque y sistema operativo</li>
-                    <li>Actualización de componentes (RAM, SSD, etc.)</li>
-                    <li>Recuperación de datos</li>
-                </ul>
+                <div class="image-wrapper carousel" data-autoplay="true" data-interval="3500">
+                    <div class="carousel-track">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/drone1/1280/720" alt="Drone 1">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/drone2/1280/720" alt="Drone 2">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/drone3/1280/720" alt="Drone 3">
+                    </div>
+                    <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+                    <button class="carousel-btn next" aria-label="Siguiente">›</button>
+                    <div class="carousel-dots" aria-hidden="false"></div>
+                </div>
+                <div class="service-detail-content">
+                    <h2>🛰 Drone</h2>
+                    <p>Ofrecemos consultoría y aplicación de soluciones cuando la necesites:</p>
+                    <ul>
+                        <li>Soluciones a la medida</li>
+                        <li>Consultoría</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="service-detail-card">
-                <h2>⚙️ Mantenimiento Preventivo</h2>
-                <p>El mantenimiento regular es clave para prolongar la vida útil de tus equipos. Incluye:</p>
-                <ul>
-                    <li>Limpieza profunda de componentes internos</li>
-                    <li>Actualización de software y drivers</li>
-                    <li>Optimización del sistema operativo</li>
-                    <li>Revisión de temperatura y ventilación</li>
-                </ul>
+                <div class="image-wrapper carousel" data-autoplay="true" data-interval="4000">
+                    <div class="carousel-track">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/pc1/1280/720" alt="PC 1">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/pc2/1280/720" alt="PC 2">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/pc3/1280/720" alt="PC 3">
+                    </div>
+                    <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+                    <button class="carousel-btn next" aria-label="Siguiente">›</button>
+                    <div class="carousel-dots" aria-hidden="false"></div>
+                </div>
+                <div class="service-detail-content">
+                    <h2>💻 Reparación de equipo de computo</h2>
+                    <p>Realizamos diagnósticos completos y reparaciones de hardware y software para equipos de escritorio y portátiles. Nuestros técnicos certificados pueden resolver problemas de:</p>
+                    <ul>
+                        <li>Pantallas y componentes dañados</li>
+                        <li>Problemas de arranque y sistema operativo</li>
+                        <li>Actualización de componentes (RAM, SSD, etc.)</li>
+                         <li>Limpieza profunda de componentes internos</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="service-detail-card">
-                <h2>💻 Desarrollo de Software</h2>
-                <p>Ofrecemos consultoría y aplicación de soluciones cuando la necesites:</p>
-                <ul>
-                    <li>Soluciones a la medida</li>
-                    <li>Consultoría</li>
-                </ul>
-            </div>
-
-            <div class="service-detail-card">
-                <h2>🌐 Próximamente</h2>
-                <p>Estamos expandiendo nuestros servicios para incluir:</p>
-                <ul>
-                    <li>Redes y conectividad</li>
-                    <li>Y mucho más...</li>
-                </ul>
+                <div class="image-wrapper carousel" data-autoplay="true" data-interval="3000">
+                    <div class="carousel-track">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/cell1/1280/720" alt="Cell 1">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/cell2/1280/720" alt="Cell 2">
+                        <img class="service-image carousel-slide" src="https://picsum.photos/seed/cell3/1280/720" alt="Cell 3">
+                    </div>
+                    <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+                    <button class="carousel-btn next" aria-label="Siguiente">›</button>
+                    <div class="carousel-dots" aria-hidden="false"></div>
+                </div>
+                <div class="service-detail-content">
+                    <h2>📱 Reparación de celulares</h2>
+                    <p>Realizamos diagnósticos completos y reparaciones de hardware y software en equipos moviles. Incluye:</p>
+                    <ul>
+                        <li>Cambio de pantallas, baterias, centros de carga</li>
+                        <li>Revisión, diagnósticos</li>
+                        <li>Mantenimiento, limpieza</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
@@ -62,16 +95,100 @@ permalink: /servicios/
 <style>
 .services-detail {
     margin-top: 3rem;
+    display: grid;
+    gap: 1.5rem;
 }
 
 .service-detail-card {
     background: var(--bg-light);
     padding: 2rem;
     border-radius: 12px;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    align-items: center;
 }
 
-.service-detail-card h2 {
+.image-wrapper {
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #f3f3f3;
+    position: relative;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.45s ease;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
+
+.carousel-btn:focus { outline: 2px solid var(--accent-color); }
+
+.carousel-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.6);
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background: var(--accent-color);
+}
+
+.service-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.service-detail-content h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
@@ -85,6 +202,13 @@ permalink: /servicios/
     color: var(--text-secondary);
     margin-bottom: 0.5rem;
     line-height: 1.7;
+}
+
+/* Tablet / Desktop: image + content columns */
+@media (min-width: 768px) {
+    .service-detail-card {
+        grid-template-columns: 320px 1fr;
+    }
 }
 
 /* Móvil */
@@ -113,3 +237,55 @@ permalink: /servicios/
     }
 }
 </style>
+<script>
+(function(){
+  function initCarousel(carousel){
+    const track = carousel.querySelector('.carousel-track');
+    const slides = Array.from(track.children);
+    const prevBtn = carousel.querySelector('.carousel-btn.prev');
+    const nextBtn = carousel.querySelector('.carousel-btn.next');
+    const dotsWrap = carousel.querySelector('.carousel-dots');
+    let index = 0;
+    const total = slides.length;
+    const interval = parseInt(carousel.dataset.interval) || 4000;
+    let timer = null;
+
+    // create dots
+    slides.forEach((s, i) => {
+      const d = document.createElement('button');
+      d.className = 'carousel-dot';
+      d.type = 'button';
+      d.ariaLabel = 'Ir a la imagen ' + (i+1);
+      d.addEventListener('click', () => goTo(i));
+      dotsWrap.appendChild(d);
+    });
+
+    const dots = Array.from(dotsWrap.children);
+
+    function update(){
+      track.style.transform = 'translateX(' + (-index * 100) + '%)';
+      dots.forEach((d, i) => d.classList.toggle('active', i === index));
+    }
+
+    function prev(){ index = (index - 1 + total) % total; update(); }
+    function next(){ index = (index + 1) % total; update(); }
+    function goTo(i){ index = i % total; update(); }
+
+    prevBtn.addEventListener('click', prev);
+    nextBtn.addEventListener('click', next);
+
+    // autoplay
+    if (carousel.dataset.autoplay === 'true'){
+      timer = setInterval(next, interval);
+      carousel.addEventListener('mouseenter', () => { clearInterval(timer); timer = null; });
+      carousel.addEventListener('mouseleave', () => { if (!timer) timer = setInterval(next, interval); });
+    }
+
+    update();
+  }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    document.querySelectorAll('.image-wrapper.carousel').forEach(initCarousel);
+  });
+})();
+</script>
