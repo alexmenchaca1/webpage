@@ -1,35 +1,33 @@
 # Configuración del sitio
-title: "ServTec Rosarito - Servicios Tecnológicos"
-description: "Reparación de computadoras, mantenimiento preventivo y soporte técnico en Rosarito. Expertos certificados en servicios tecnológicos profesionales."
+title: "Hospital de Smarphones y Drones"
+description: "Reparación de computadoras, celuares, drones, mantenimiento preventivo y soporte técnico en Tijuana. Expertos certificados en servicios tecnológicos profesionales."
 baseurl: "" # El subpath de tu sitio, ej: /blog
-url: "https://www.servtecrosarito.com" # URL principal con www
+url: "https://www.hospitalsmartphone.com" # URL principal con www
 
 # URLs alternativas
 alternate_urls:
-  - "https://servtecrosarito.com"
+  - "https://hospitalsmartphone.com"
 
 # SEO y Metadata
-author: "ServTec Rosarito"
+author: "Hospital de Smarphones y Drones"
 twitter:
   username: servtecrosarito
-  card: summary_large_image
 
 # Open Graph / Facebook
 logo: /assets/images/logo.png # Crea este logo (recomendado: 1200x630px)
 social:
-  name: ServTec Rosarito
+  name: Hospital de Smartphone DRONE
   links:
-    - https://facebook.com/servtecrosarito
-    - https://twitter.com/servtecrosarito
+    - https://facebook.com/HospitaldesmartphoneDRONES
     - https://instagram.com/servtecrosarito
 
 # Información de la empresa (Schema.org)
 company:
-  name: "ServTec Rosarito"
-  legal_name: "ServTec Rosarito Servicios Tecnológicos"
-  tagline: "Soluciones tecnológicas a tu alcance"
-  email: "contacto@servtecrosarito.com"
-  phone: "+52 663 205 0285"
+  name: "Hospital de Smarphones y Drones"
+  legal_name: "Hospital de Smarphones y Drones"
+  tagline: "Los drones no se tiran se reparan"
+  email: "alex@hospitalsmartphone.com"
+  phone: "+52 664 686 4921"
   address:
     street: "Boulevard Benito Juárez"
     city: "Rosarito"
@@ -66,7 +64,7 @@ plugins:
   - jekyll-sitemap
 
 # Jekyll SEO Tag settings
-tagline: "Servicios tecnológicos profesionales en Rosarito"
+tagline: "Hospital de Smartphone DRONE"
 
 # Feed settings
 feed:
