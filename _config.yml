@@ -12,7 +12,7 @@ alternate_urls:
 author: "Hospital de Smartphone Drone"
 
 # Open Graph / Facebook
-logo: /assets/images/logo.png # Crea este logo (recomendado: 1200x630px)
+logo: /assets/images/logo.svg # Crea este logo (recomendado: 1200x630px)
 social:
   name: Hospital de Smartphone DRONE
   links:
@@ -38,7 +38,7 @@ company:
     latitude: "32.3658"
     longitude: "-117.0439"
   founded: "2007"
-  logo: "/assets/images/logo.png"
+  logo: "/assets/images/logo.svg"
 
 # Navegación
 navigation:

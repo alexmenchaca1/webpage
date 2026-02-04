@@ -5,7 +5,12 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/mobile.css' | relative_url }}">
     <link rel="canonical" href="https://www.hospitalsmartphone.com/" />
-    
+
+    <!-- Favicon: SVG principal y PNG como fallback para navegadores antiguos -->
+    <link rel="icon" href="{{ site.logo | relative_url }}" type="image/svg+xml">
+    <link rel="alternate icon" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}" sizes="32x32">
+    <link rel="icon" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}" sizes="16x16">
+
     <!-- Preconnect para mejorar performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
