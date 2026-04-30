@@ -26,8 +26,8 @@ company:
   tagline: "Los drones no se tiran se reparan"
   email: "alex@hospitalsmartphone.com"
   phone: "+52 664 686 4921"
-  whatsapp: "https://wa.me/526645962017"
-  telwahat: "+52 664 596 2017"
+  whatsapp: "https://wa.me/526646864921"
+  telwahat: "+52 664 686 4921"
   address:
     street: "Blvrd Cuauhtémoc Sur Ote 2646-A"
     city: "Tijuana"
@@ -100,7 +100,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "ServTec Rosarito Team"
+      author: "Team Hospital del Smartphone Drone"
       image: /assets/images/default-post-image.jpg
   - scope:
       path: ""

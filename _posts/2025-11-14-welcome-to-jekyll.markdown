@@ -1,29 +1,28 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-11-14 08:33:28 +0000
+title:  "Bienvenido al Hospital del SmartPhone Drone"
+date:   2026-04-30 08:33:28 +0000
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+¡Hola! Gracias por visitar nuestra página. Si estás aquí, probablemente tu equipo favorito necesita un poco de atención profesional. En nuestro taller nos especializamos en devolverle la vida a tus herramientas de trabajo y diversión.
 
-Jekyll requires blog post files to be named according to the following format:
+Podrás encontrar este y otros anuncios en nuestro blog, donde compartiremos consejos de mantenimiento y actualizaciones de nuestros servicios de reparación para **drones, computadoras y dispositivos móviles**.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+### Lo que hacemos por ti
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Actualmente ofrecemos soporte técnico especializado en:
+* **Drones:** Calibración, cambio de motores y reparación de carcasas.
+* **Computadoras:** Limpieza, eliminación de virus y actualización de hardware (SSD, RAM).
+* **Móviles:** Cambio de pantallas y baterías para smartphones y tablets.
 
-Jekyll also offers powerful support for code snippets:
+Jekyll también nos permite mostrarte ejemplos técnicos de cómo diagnosticamos, por ejemplo, configuraciones de software...
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<!-- {% highlight bash %}
+# Verificando el estado de conexión de un componente
+ping -c 4 taller-reparacion-drones.local
+{% endhighlight %} -->
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Si tienes alguna duda sobre un presupuesto o el estado de tu equipo, no dudes en contactarnos a través de nuestras redes sociales o directamente en el local. ¡Estamos para ayudarte!
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[nuestros-servicios]: /servicios
+[contacto]: /contacto
